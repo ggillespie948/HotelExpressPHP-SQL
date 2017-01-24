@@ -1,0 +1,30 @@
+<div id="map"></div>
+    <script>
+        function initMap() {
+
+            //Auto this into loop which fetches latlng coords from file which is added to through manager page
+            var myLatLng = {lat: 56.457161, lng: -2.976120};
+            var myLatLng2 = {lat: 55.953252, lng: -3.188267};
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 8,
+                center: myLatLng
+            });
+
+            //Generate marker for each latlng/hotel location
+            var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                title: 'Hello World!'
+            });
+
+            var marker2 = new google.maps.Marker({
+                position: myLatLng2,
+                map: map,
+                title: 'Hello World!'
+            });
+        }
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC4AMfxOSixDoHsRcKJN3UnLyE_tpg44k&callback=initMap">
+    </script>

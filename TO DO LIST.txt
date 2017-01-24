@@ -1,0 +1,79 @@
+Change databse so it is possible to query if a room is available.
+Add validation which redirects users if the do not have access_level to view a page
+
+Finish the refine-search menu so that queries can be built on the fly
+
+Add page for add disciplinary
+
+Add global MANAGE BOOKING page
+	certain includes based ont he viewer:
+	for guest: include "order-item/facil.html" _> form post with dropdowns to order food,cig etc
+	for employee: include "something"
+
+Finish reservation page so that new booking items can be added
+
+Add html include so that booking history can be retrieved in the my account page, each with a button which refers a gven booking to the manage booking page
+
+UPDATE sql queries on each page to use VIEWS
+
+
+ADD buttons/links which allow for the advanced quries to be used.
+
+Change the search-bars for orders/bookings/employees AND the php for each which builds the view query
+
+Something that uses facilities?
+
+
+DATABASE: 
+change service so it uses order-time,
+change 
+
+OTHER STUFF:
+Transactions when inserting to db ******************
+
+
+Update index page for employees and managers
+
+*********************************************
+
+Finish room reservation -> FINISH EMPLOYEE-FORM for make reservation and employee confirm forms %%%% NOT DONE , then createreservation.php ***DONE
+
+Finish manage booking -> create order form and make-order.php
+
+Add validation to room search so that a date must be selected. ***DONE
+
+Update the search-bars so they can better query employees/guests/bookings *DONE SOME BUT NEED MORE
+
+Add advanced queries for manager employee page via buttons which run sparate functions to display results. *** DONE
+
+make confirm thanks for booking page ***DONE
+
+CHANGE INSERTS INTO VIEWS
+
+make-order.php
+complete-order.php
+
+manager-login!!! -> manage employee with add disciplinary
+
+*********************
+
+Add advanced query buttons ***DONE
+
+Add room price to search bar
+
+**************** by 2:
+manage employee, *** DONE
+views used as much as possible, complete+create order *** DONE
+
+
+
+Add sort to employees *** DONE 
+
+Add validation to room service order
+refine searches: Add guest-email search to BOOKING & ORDERS
+add other 2 advanced queries
+
+**************** by 3:
+move to server spacel 
+
+
